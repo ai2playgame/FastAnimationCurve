@@ -13,7 +13,7 @@ namespace FastAnimationCurve
     
     public static class AnimationCurveGenerator
     {
-        public static AnimationCurve GenerateRandomCurve(CurveGenerationInfo info)
+        public static AnimationCurve RandomCurve(CurveGenerationInfo info)
         {
             Keyframe[] keys = new Keyframe[info.numberOfKeys];
 
